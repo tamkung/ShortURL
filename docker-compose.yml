@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  backend:
+    image: tamwt/back-short-url
+    ports:
+      - 8000:8000
+
+  frontend:
+    image: tamwt/front-short-url
+    ports:
+      - 80:3000
